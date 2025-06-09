@@ -1,0 +1,105 @@
+/* About Page */
+.about-cloud {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background-image: url('../img/cloud.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100px;
+    width: 100%;
+}
+
+.about-img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.about-text {
+    padding: 0 32px;
+    padding-bottom: 126px;
+}
+
+@media (max-width: 992px) {
+    .about-img {
+        padding-bottom: 16px;
+        width: 50%;
+    }
+}
+
+/* Error Page */
+.error404-title {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 16px;
+}
+
+.error404-logo {
+    width: 300px;
+}
+
+/* Login Page */
+.container-login {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+
+.wrapper-login {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper-login h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/* Forum */
+.forum-image {
+    float: left;
+    margin: 16px;
+    margin-top: 0;
+    margin-left: 0;
+    max-width: 50%;
+    height: auto;
+}
+
+@media (max-width: 992px) {
+    .forum-image {
+        margin: 0;
+        margin-bottom: 16px;
+        min-width: 100%;
+    }
+}
+
+/* Contact Page */
+.contact {
+    margin: 0 5%;
+}
+.contact-image {
+    user-select: none;
+    display: none;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+@media (min-width: 992px) {
+    .contact {
+        width: 40%;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+    }
+
+    .contact-image {
+        display: initial;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+    }
+}

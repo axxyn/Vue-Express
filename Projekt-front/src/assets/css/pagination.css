@@ -1,0 +1,44 @@
+.page-link {
+    background-color: var(--color-primary);
+    color: white;
+}
+.page-link:hover {
+    background-color: var(--color-dark);
+    border-color: var(--color-dark);
+    color: white;
+}
+
+.page-item.active .page-link {
+    background-color: var(--color-dark);
+    border-color: var(--color-dark);
+    color: white;
+}
+
+.pagination > li > a
+{
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: white;
+    background-color: var(--color-dark);
+    border-color: var(--color-dark);
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: var(--color-dark);
+    border: solid 1px var(--color-dark);
+}
+
+.pagination > .active > a:hover
+{
+    background-color: var(--color-dark);
+    border: solid 1px var(--color-dark);
+}

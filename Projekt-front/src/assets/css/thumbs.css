@@ -1,0 +1,19 @@
+.thumbs a {
+    color: var(--color-dark)!important;
+    text-decoration: none;
+}
+
+.thumbs .like, .thumbs .dislike {
+    transition: 0.15s ease-in;
+}
+.thumbs .like:hover, .thumbs .like.pressed, .thumbs.disabled a .like {
+    fill: green;
+}
+.thumbs .dislike:hover,  .thumbs .dislike.pressed, .thumbs.disabled a .dislike {
+    fill: red;
+}
+
+.thumbs.disabled a {
+    cursor: default;
+    pointer-events: none;
+}

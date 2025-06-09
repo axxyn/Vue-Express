@@ -1,0 +1,13 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-privacy {
+    text-align: left;
+}
+
+.footer-copyright {
+    text-align: right;
+}

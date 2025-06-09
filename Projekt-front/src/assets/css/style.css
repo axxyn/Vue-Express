@@ -1,0 +1,52 @@
+@import 'clearfix.css';
+@import 'footer.css';
+@import 'pages.css';
+@import 'input.css';
+@import 'nav.css';
+@import 'pagination.css';
+@import 'thumbs.css';
+@import 'utilities.css';
+@import 'loader.css';
+
+:root {
+    --color-primary: #413C69;
+    --color-secondary: #4A47A3;
+    --color-link: #bf86a2;
+    --color-light: #e39a93;
+    --color-dark: #162143;
+
+    --color-gray: rgba(197, 197, 197, 0.259);
+
+    --xs: 0;
+    --sm: 576px;
+    --md: 768px;
+    --lg: 992px;
+    --xl: 1200px;
+    --xxl: 1400px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Lato', sans-serif!important;
+    color: var(--color-dark);
+    background-color: #2e2e4e;
+}
+
+body {
+    background: url('../img/landing.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    user-select: none;
+}

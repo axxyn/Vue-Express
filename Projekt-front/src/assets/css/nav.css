@@ -1,0 +1,71 @@
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: transparent;
+}
+
+.navbar, .navbar .container-fluid {
+    padding: 0!important;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        background-color: var(--color-dark);
+    }
+    .navbar-nav .nav-link {
+        padding: 8px 16px;
+        border-bottom: 1px solid white;
+    }
+}
+
+.navbar-nav {
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--color-light);
+}
+
+.navbar-nav .nav-btn {
+    border: 1px solid white;
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav .nav-btn {
+        display: inline-block;
+    }
+}
+
+.navbar-toggler {
+    padding: 8px;
+    border-radius: 100%;
+    transition: 0.20s ease-in;
+    background-color: var(--color-secondary);
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    right: 0;    
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.1rem
+}
+
+.navbar-toggler-icon {
+    background-image: url('../img/moon.png');
+    width: 3em;
+    height: 3em;
+}
+
+.collapsing, .show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
